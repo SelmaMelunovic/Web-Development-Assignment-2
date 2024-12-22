@@ -1,0 +1,169 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2d7f5e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #2d7f5e;
+      font-size: 1.8em;
+    }
+
+    .diet {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .diet-item {
+      flex: 1 1 30%;
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .diet-item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .diet-item h3 {
+      color: #333;
+      font-size: 1.4em;
+    }
+
+    .diet-item p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    footer {
+      background-color: #2d7f5e;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      bottom: 5px;
+    }
+    .row > .column {
+      padding: 0 8px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .thumbnail {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    
+    .thumbnail.hover{
+      transform: scale(0.9)
+    }
+
+    .modal {
+      display: none;
+      position: fixed; 
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%; 
+      background-color: rgba(234, 255, 150, 0.8); 
+      justify-content: center; 
+      align-items: center; 
+      z-index: 1000; 
+      padding-bottom: 20px;
+    }
+   
+    .modal img {
+      max-width: 80%;
+      max-height: 80%; 
+      border: 5px solid white; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    }
+    
+    .modal.close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+
+    
+  
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+button.theme-toggle {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+button.theme-toggle.dark-theme {
+  background-color: #333;
+  color: white;
+}
+.thumbnail{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#diet-details img {
+  max-width: 60%;  
+  height: auto;    
+  display: block;  
+  margin: 0 auto;  
+}
