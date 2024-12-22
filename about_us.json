@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Keto Diet",
+        "description": "A low-carb, high-fat diet to help with weight loss.",
+        "benefits": "Weight loss, Improved energy levels, Enhanced mental focus",
+        "duration": "4-12 weeks"
+    },
+    {
+        "name": "Mediterranean Diet",
+        "description": "A heart-healthy diet inspired by the traditional eating habits of countries bordering the Mediterranean Sea.",
+        "benefits": "Reduced risk of heart disease, Promotes weight loss, Improves brain function",
+        "duration": "Ongoing"
+    },
+    {
+        "name": "Vegan Diet",
+        "description": "A plant-based diet that excludes all animal products.",
+        "benefits": "Lower cholesterol, Reduced risk of chronic diseases, Ethical treatment of animals",
+        "duration": "Ongoing"
+    }
+]

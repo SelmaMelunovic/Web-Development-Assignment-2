@@ -1,0 +1,143 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4 {
+    color: #343a40;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #0056b3;
+}
+
+
+#nutritionTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+#nutritionTable th, #nutritionTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#nutritionTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#nutritionTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#nutritionTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#blog {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#blog p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+#blog ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#blog ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+#blog em {
+    font-style: italic;
+    color: #888;
+}
+
+#blog h3, #blog h4 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+
+.alert {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
